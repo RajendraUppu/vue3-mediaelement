@@ -55,6 +55,7 @@ app.mount("#app");
 
 add mejs.controls.svg to root folder if you were unable to see the video controls.
 you can find the Controls SVG file on my Github Repo : https://github.com/RajendraUppu/vue3-mediaelement
+
 on Vue Component after Global Component Registration Just include MediaElement with Props Defined below.
 
 ```vue
