@@ -48,22 +48,19 @@ app.mount("#app");
   href="../node-modules/vue3-mediaelement/dist/style.css"
   charset="utf-8"
 />
-<script src="../node-modules/vue3-mediaelement/dist/vue-mediaelement.js"></script>
+<script src="../node-modules/vue3-mediaelement/dist/vue3-mediaelement.js"></script>
 ```
 
 ## Usage
 
-add mejs.controls.svg to root folder if you were unable to see the video controls.
-you can find the Controls SVG file on my Github Repo : https://github.com/RajendraUppu/vue3-mediaelement
-
 on Vue Component after Global Component Registration Just include MediaElement with Props Defined below.
 
 ```vue
-<Mediaelement
+<mediaelement
   width="500"
   height="300"
   source="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-></Mediaelement>
+></mediaelement>
 ```
 
 ```
@@ -85,8 +82,8 @@ on Vue Component after Global Component Registration Just include MediaElement w
 
 | Event Name | Type | Description |
 | ----- | ----- | ----- |
-| success | callback | Action(s) that will be executed as soon as the source is loaded; passes 2 arguments: media (the wrapper that mimics all the native events/properties/methods for all renderers) and node (the original HTML video, audio or iframe tag where the media was loaded originally; if html5 is being used, media and node are the basically the same) | (Upcoming Feature)
-| error | callback | Action(s) that will be executed if source doesn't load for any reason. Passes same arguments as success | (Upcoming Feature)
+| success | callback | Action(s) that will be executed as soon as the source is loaded; passes 2 arguments: media (the wrapper that mimics all the native events/properties/methods for all renderers) and node (the original HTML video, audio or iframe tag where the media was loaded originally; if html5 is being used, media and node are the basically the same) |
+| error | callback | Action(s) that will be executed if source doesn't load for any reason. Passes same arguments as success |
 ```
 
 Hope This Package Helped you integrating MediaElement JS into Your Vue 3 or Nuxt 3 Application.

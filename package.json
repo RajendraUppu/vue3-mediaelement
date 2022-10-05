@@ -1,9 +1,9 @@
 {
   "name": "vue3-mediaelement",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "author": "Rajendra Uppu",
   "license": "MIT",
-  "description": "video live player",
+  "description": "Vue3 MediaElement Video Player",
   "github": "https://github.com/RajendraUppu/vue3-mediaelement#readme",
   "bugs": {
     "url": "https://github.com/RajendraUppu/vue-mediaelement/issues"
